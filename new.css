@@ -1,0 +1,26 @@
+body {
+  background-color: lightblue;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+ul {
+  margin-bottom: 20px;
+}
+
+p {
+  margin: 0;          /* removes default margin (prevents shifting) */
+  padding: 0;         /* removes spacing inside paragraph */
+  text-align: left;   /* forces text to align left */
+}
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;   /* makes image respect alignment */
+  margin: 0;        /* removes any centering */
+  padding: 0;
+}
